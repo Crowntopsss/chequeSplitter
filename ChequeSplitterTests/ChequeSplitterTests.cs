@@ -53,5 +53,16 @@ namespace ChequeSplitterTests
             var chequeSplitter = new ChequeSplitter();
             Assert.Throws<ArgumentException>(() => chequeSplitter.CalculateTip(new Dictionary<string, decimal>(), -10f));
         }
+
+        [Theory]
+        [InlineData(100, 4, 20, 5)]
+        [InlineData(200, 5, 15, 6)]
+        [InlineData(150, 3, 10, 5)]
+        public void CalculateIndividualTip_ShouldReturnCorrectAmount(decimal totalAmount, int numberOfPatrons, float tipPercentage, decimal expectedTipPerPerson)
+        {
+            var chequeSplitter = new ChequeSplitter();
+            decimal actualTipPerPerson = chequeSplitter.CalculateIndividualTip(totalAmount, numberOfPatrons, tipPercentage);
+            Assert.Equal(expectedTipPerPerson, actualTipPerPerson);
+        }
     }
 }

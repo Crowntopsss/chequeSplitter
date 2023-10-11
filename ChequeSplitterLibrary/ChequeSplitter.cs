@@ -5,14 +5,14 @@ namespace ChequeSplitterLibrary
 {
     public class ChequeSplitter
     {
-        // Existing method
+        
         public decimal SplitCheque(decimal amount, int numberOfPeople)
         {
             if (numberOfPeople <= 0) throw new ArgumentException("Number of people must be greater than 0");
             return Math.Round(amount / numberOfPeople, 2);
         }
         
-        // New method
+        
         public Dictionary<string, decimal> CalculateTip(Dictionary<string, decimal> mealCosts, float tipPercentage)
         {
             if (tipPercentage < 0) throw new ArgumentException("Tip percentage cannot be negative");
@@ -33,6 +33,17 @@ namespace ChequeSplitterLibrary
             }
             
             return tipAmounts;
+        }
+
+        public decimal CalculateIndividualTip(decimal totalAmount, int numberOfPatrons, float tipPercentage)
+        {
+            if (numberOfPatrons <= 0) throw new ArgumentException("Number of patrons must be greater than 0");
+            if (tipPercentage < 0) throw new ArgumentException("Tip percentage cannot be negative");
+
+            decimal totalTip = totalAmount * (decimal)tipPercentage / 100;
+            decimal tipPerPerson = totalTip / numberOfPatrons;
+            
+            return Math.Round(tipPerPerson, 2);
         }
     }
 }
