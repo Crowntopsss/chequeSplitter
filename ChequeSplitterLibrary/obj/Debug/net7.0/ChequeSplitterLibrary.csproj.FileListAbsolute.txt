@@ -1,0 +1,12 @@
+/Users/cteck/Documents/school/web/chequeSplitter/ChequeSplitterLibrary/bin/Debug/net7.0/ChequeSplitterLibrary.deps.json
+/Users/cteck/Documents/school/web/chequeSplitter/ChequeSplitterLibrary/bin/Debug/net7.0/ChequeSplitterLibrary.dll
+/Users/cteck/Documents/school/web/chequeSplitter/ChequeSplitterLibrary/bin/Debug/net7.0/ChequeSplitterLibrary.pdb
+/Users/cteck/Documents/school/web/chequeSplitter/ChequeSplitterLibrary/obj/Debug/net7.0/ChequeSplitterLibrary.csproj.AssemblyReference.cache
+/Users/cteck/Documents/school/web/chequeSplitter/ChequeSplitterLibrary/obj/Debug/net7.0/ChequeSplitterLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cteck/Documents/school/web/chequeSplitter/ChequeSplitterLibrary/obj/Debug/net7.0/ChequeSplitterLibrary.AssemblyInfoInputs.cache
+/Users/cteck/Documents/school/web/chequeSplitter/ChequeSplitterLibrary/obj/Debug/net7.0/ChequeSplitterLibrary.AssemblyInfo.cs
+/Users/cteck/Documents/school/web/chequeSplitter/ChequeSplitterLibrary/obj/Debug/net7.0/ChequeSplitterLibrary.csproj.CoreCompileInputs.cache
+/Users/cteck/Documents/school/web/chequeSplitter/ChequeSplitterLibrary/obj/Debug/net7.0/ChequeSplitterLibrary.dll
+/Users/cteck/Documents/school/web/chequeSplitter/ChequeSplitterLibrary/obj/Debug/net7.0/refint/ChequeSplitterLibrary.dll
+/Users/cteck/Documents/school/web/chequeSplitter/ChequeSplitterLibrary/obj/Debug/net7.0/ChequeSplitterLibrary.pdb
+/Users/cteck/Documents/school/web/chequeSplitter/ChequeSplitterLibrary/obj/Debug/net7.0/ref/ChequeSplitterLibrary.dll
